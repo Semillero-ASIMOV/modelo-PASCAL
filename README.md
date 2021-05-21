@@ -18,7 +18,7 @@ Fuente: [Markdown and Visual Studio Code][markdown]
 
 Para editar el informe directamente en Visual Studio Code y realizar push a GitHub, se puede usar la extensión [LaTeX Workshop][latex-workshop] y seguir [este video][latex-video-install] para realizar la adecuada instalación.
 
-Una vez en visual studio y aprovechando Git, se puede editar el informe y obtener una vista previa del mismo; luego se puede hacer push para llevarlo a GitHub.
+Una vez en Visual Studio Code y aprovechando Git, se puede editar el informe y obtener una vista previa del mismo; luego se puede hacer push para llevarlo a GitHub.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.)
 
