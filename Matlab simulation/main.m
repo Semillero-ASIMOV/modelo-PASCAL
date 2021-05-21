@@ -3,7 +3,7 @@ clear all
 close all
 %% Definir posicion inicial
 posicion_inicial = [0 0]; % [m]
-posicion_final = [2 1]; % [m]
+posicion_final = [1.5 3.2]; % [m]
 t_i = pi/2; % Rotación inicial del robot con respecto al eje x [rad]
 
 ts = 1; % Periodo | intervalos de simulación
@@ -14,16 +14,19 @@ yi = posicion_inicial(2);
 yf = posicion_final(2);
 %% Display robot
 plot(xi, yi,'bo', 'MarkerSize', 10, 'color', 'r');
+xlabel(["Posición [m]"])
+ylabel(["Posición [m]"])
+grid on
+title("Ubicación y rotación del robot")
 hold on
 ylim([yi-0.2 yf+0.2])
 xlim([xi-0.2 xf+0.2])
 
-line([xi 0.1*cos(t_i)+xi], [yi 0.1*sin(t_i)+yi], 'color', 'k') % Linea de frente
+line([xi 0.1*cos(t_i)+xi], [yi 0.2*sin(t_i)+yi], 'color', 'k') % Linea de frente
 
 %% Pre-simulacion
 % Se obtienen velocidades iniciales a partir de los puntos dados
 [Vxp, Vyp, w, t_e] = desplazamiento(xi, yi, t_i, xf, yf);
-
 %% Vectores para gráfcias | no afectan simulación
 v_ti = [t_i]; % Vector de rotacion del robot t_i
 v_xi = [xi]; % Vector de posicion del robot en X xi
@@ -40,7 +43,7 @@ v_w4 = [0]; % Vector de velocidad angular de la rueda
 
 %% Simulación
 % Se inicia ciclo
-for t=0:ts:3000
+for t=0:ts:10000
     % Obtener las velocidades angulares de cada rueda
     [w1, w2, w3, w4] = cinematico(Vxp, Vyp, w);
     
@@ -49,15 +52,14 @@ for t=0:ts:3000
     dy = Vyp*ts; % Distancia recorrida en Y
     d = sqrt((dx^2)+(dy^2)); % Distancia total recorrida
     td = atan(dx/dy); % Angulo del vector de desplazamiento
-
-    xi = xi + d*cos(td+(pi/2)-t_i); % Nueva posicion X
-    yi = yi + d*sin(td+(pi/2)-t_i); % Nueva posicion Y
+    
+    xi = xi + d*sin(td+(pi/2)-t_i); % Nueva posicion X
+    yi = yi + d*cos(td+(pi/2)-t_i); % Nueva posicion Y
     t_i = t_i + w*ts; % Nueva posicion angular
     
     plot(xi, yi, 'bo', 'MarkerSize', 10); % Dibujar posicion
-    line([xi 0.1*cos(t_i)+xi], [yi 0.1*sin(t_i)+yi], 'color', 'k'); % Linea de frente 
+    line([xi 0.2*cos(t_i)+xi], [yi 0.1*sin(t_i)+yi], 'color', 'k'); % Linea de frente 
     % pause(ts)
-    
     [Vxp, Vyp, w, t_e] = desplazamiento(xi, yi, t_i, xf, yf); %Recalcular las velocidades con la nueva posición
     
     v_w1 = [v_w1 w1];
@@ -126,6 +128,8 @@ hold on
 plot(t, v_w2)
 plot(t, v_w3)
 plot(t, v_w4)
+xlabel(["Tiempo [s]"])
+ylabel(["Velocidad angular [rad/s]"])
 grid on
-title('W1, W2, W3, W4 [rad/s]')
+title('Velocidad angular de los 4 motores')
 legend('W1','W2', 'W3', 'W4')
