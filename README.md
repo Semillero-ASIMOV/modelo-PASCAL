@@ -4,9 +4,9 @@ Semillero de Robótica, robót movil, equipo de Modelo
 
 # Manual
 ## Tabla de Contenido
-- [Previsualizar Markdown en VS Code](https://github.com/MrCabrac/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
-- [Usar LaTeX en VS Code](https://github.com/MrCabrac/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
-- [Informe PDF](https://github.com/MrCabrac/asimov-modelo/blob/main/informe/informe.pdf)
+- [Previsualizar Markdown en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
+- [Usar LaTeX en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
+- [Informe PDF](https://github.com/Semillero-ASIMOV/asimov-modelo/blob/main/informe/build/informe.pdf)
 
 # Previsualizar Markdown en Visual Studio Code
 
