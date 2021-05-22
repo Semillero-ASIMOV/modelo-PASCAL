@@ -21,7 +21,22 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{tejada}
-``Modelo {Cinemático} {4R}.''
+\bibitem{noauthor_gazebo_nodate}
+\BIBentryALTinterwordspacing
+``\BIBforeignlanguage{en-US}{Gazebo}.'' [Online]. Available:
+  \url{http://www.gazebosim.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{noauthor_kuka_nodate}
+\BIBentryALTinterwordspacing
+``\BIBforeignlanguage{en}{{KUKA} {youBot}}.'' [Online]. Available:
+  \url{https://www.kuka.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gonzalez-villela_cinematica_2015}
+V.~Gonzalez-Villela, A.~Sánchez-Balpuesta, and S.-A. Adan,
+  ``\BIBforeignlanguage{es}{Cinemática de una plataforma móvil
+  omnidireccional con llantas {Mecanum} en configuración {AB}},'' Ph.D.
+  dissertation, Universidad Nacional Autónoma de México, Sep. 2015.
 
 \end{thebibliography}

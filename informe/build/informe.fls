@@ -326,26 +326,26 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
-INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT .\figures\matlab_pos_1.jpg
-INPUT .\figures\matlab_pos_1.jpg
-INPUT figures\matlab_pos_1.jpg
-INPUT .\figures\matlab_pos_1.jpg
+INPUT .\figures\plataforma_config.jpg
+INPUT .\figures\plataforma_config.jpg
+INPUT figures\plataforma_config.jpg
+INPUT .\figures\plataforma_config.jpg
 OUTPUT c:\Users\Brayan.Martinez\OneDrive\Documentos\Universidad\SeRo\asimov-modelo\informe\build\informe.pdf
-INPUT .\figures\matlab_pos_1.jpg
-INPUT .\figures\matlab_pos_1.jpg
-INPUT .\figures\matlab_pos_1.jpg
-INPUT .\figures\matlab_motor_1.jpg
-INPUT .\figures\matlab_motor_1.jpg
-INPUT figures\matlab_motor_1.jpg
-INPUT .\figures\matlab_motor_1.jpg
-INPUT .\figures\matlab_motor_1.jpg
-INPUT .\figures\matlab_motor_1.jpg
-INPUT .\figures\matlab_motor_1.jpg
+INPUT .\figures\plataforma_config.jpg
+INPUT .\figures\plataforma_config.jpg
+INPUT .\figures\plataforma_config.jpg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\figures\omnidirectional_robot.jpg
+INPUT .\figures\omnidirectional_robot.jpg
+INPUT figures\omnidirectional_robot.jpg
+INPUT .\figures\omnidirectional_robot.jpg
+INPUT .\figures\omnidirectional_robot.jpg
+INPUT .\figures\omnidirectional_robot.jpg
+INPUT .\figures\omnidirectional_robot.jpg
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Brayan.Martinez\AppData\Local\MiKTeX\pdftex\config\pdftex.map
@@ -365,8 +365,42 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT .\figures\campos_potenciales.jpg
+INPUT .\figures\campos_potenciales.jpg
+INPUT figures\campos_potenciales.jpg
+INPUT .\figures\campos_potenciales.jpg
+INPUT .\figures\campos_potenciales.jpg
+INPUT .\figures\campos_potenciales.jpg
+INPUT .\figures\campos_potenciales.jpg
+INPUT .\figures\new_positions.jpg
+INPUT .\figures\new_positions.jpg
+INPUT figures\new_positions.jpg
+INPUT .\figures\new_positions.jpg
+INPUT .\figures\new_positions.jpg
+INPUT .\figures\new_positions.jpg
+INPUT .\figures\new_positions.jpg
+INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\Brayan.Martinez\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT .\figures\matlab_pos_1.jpg
+INPUT .\figures\matlab_pos_1.jpg
+INPUT figures\matlab_pos_1.jpg
+INPUT .\figures\matlab_pos_1.jpg
+INPUT .\figures\matlab_pos_1.jpg
+INPUT .\figures\matlab_pos_1.jpg
+INPUT .\figures\matlab_pos_1.jpg
+INPUT .\figures\matlab_motor_1.jpg
+INPUT .\figures\matlab_motor_1.jpg
+INPUT figures\matlab_motor_1.jpg
+INPUT .\figures\matlab_motor_1.jpg
+INPUT .\figures\matlab_motor_1.jpg
+INPUT .\figures\matlab_motor_1.jpg
+INPUT .\figures\matlab_motor_1.jpg
 INPUT .\figures\kuka_real_youbot.jpg
 INPUT .\figures\kuka_real_youbot.jpg
 INPUT figures\kuka_real_youbot.jpg
@@ -395,12 +429,31 @@ INPUT .\figures\kuka_final_pos.jpg
 INPUT .\figures\kuka_final_pos.jpg
 INPUT .\figures\kuka_final_pos.jpg
 INPUT .\figures\kuka_final_pos.jpg
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT c:\Users\Brayan.Martinez\OneDrive\Documentos\Universidad\SeRo\asimov-modelo\informe\build\informe.bbl
 INPUT c:\Users\Brayan.Martinez\OneDrive\Documentos\Universidad\SeRo\asimov-modelo\informe\build\informe.bbl
 INPUT c:\Users\Brayan.Martinez\OneDrive\Documentos\Universidad\SeRo\asimov-modelo\informe\build\informe.bbl
 INPUT c:\Users\Brayan.Martinez\OneDrive\Documentos\Universidad\SeRo\asimov-modelo\informe\build\informe.bbl
 INPUT c:\Users\Brayan.Martinez\OneDrive\Documentos\Universidad\SeRo\asimov-modelo\informe\build\informe.aux
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
