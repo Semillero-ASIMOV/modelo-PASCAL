@@ -6,6 +6,8 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
 % \usepackage{natbib}
 
 \begin{document}
@@ -18,7 +20,7 @@
 }
 \makeatother
 
-\title{Sistema control modelo}
+\title{Control de plataforma móvil de cuatro ruedas mecanum con modelo cinemático}
 
 \author{
   \IEEEauthorblockN{
@@ -70,30 +72,26 @@
     Medellín, Colombia \\
     email
   }
-  \and
-  \IEEEauthorblockN{
-    6\textsuperscript{th} aaa, aaaa aaaa
-  }
-  \IEEEauthorblockA{
-    \textit{Ingeniería Mecatrónica} \\
-    \textit{Universidad EIA}\\
-    Medellín, Colombia \\
-    email
-  }
 }
 \maketitle
 
 \begin{abstract}
-  Ut id augue ut ex convallis blandit quis ac libero. Donec ante nunc, dictum non erat id, pharetra tempus nunc. Cras eget dignissim sapien. Vestibulum convallis dolor non odio vestibulum sagittis. In hac habitasse platea dictumst. Praesent varius arcu quis quam hendrerit, a euismod elit gravida. Ut dapibus vulputate elementum. Aliquam posuere et nibh ut molestie.
+  El movimiento de plataformas móviles está compuesto de estrategias de control,
+  modelos matemáticos que describen el movimiento del mismo, planificación de trayectorias y
+  planificación de tareas, además de sensores que deben complementarse para lograr el
+  objetivo deseado.
 \end{abstract}
 
 \begin{IEEEkeywords}
-  \LaTeX, robotica, otra
+  robotica, trayectoria, cinemática, navegación
 \end{IEEEkeywords}
 
 \section{Introducción}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et tortor ornare, mattis augue vitae, vestibulum nulla. Ut lacus orci, viverra nec lectus consequat, laoreet luctus neque. Donec scelerisque ante ac fringilla malesuada. Cras porttitor lectus erat, at convallis ex cursus a. Ut vehicula eget magna sit amet mattis. Cras at fermentum mauris, semper luctus nibh. Nunc consectetur scelerisque tellus at volutpat. Nullam ut vulputate urna. Donec sem elit, blandit quis cursus ut, ullamcorper nec sapien. Sed mauris elit, mattis sed luctus ut, tristique ac libero. Donec a sollicitudin urna, at congue nulla. Nulla a blandit dolor, ut vehicula sapien. Donec at augue diam. Quisque turpis eros, luctus id aliquam efficitur, pulvinar sit amet magna. Fusce at dui tortor.
-
+  Se presentan las simulaciones asociadas a un modelo cinemático para un robot omnidireccional 
+  con cuatro ruedas estilo mecanum teniendo de cuenta los parámetros dimensionales del robot,
+  más no, los análisis eléctricos o de leyes de control aplicables, se da una posible ruta
+  para continuar con el trabajo a fin de contribuir a la construcción de un robot de
+  servicio.
 \section{Materiales y método}
 \subsection{Materiales}
 \textbf{Matlab} para realizar matemática computacional, programación de algoritmos y
@@ -144,7 +142,8 @@ Se analiza el modelo cinemático ya conocido:
 \end{gather}
 
 \begin{figure}
-  \includegraphics[width=\linewidth]{figures/omnidirectional_robot.jpg}
+  \centering
+  \includegraphics[width=0.8\linewidth]{figures/omnidirectional_robot.jpg}
   \caption{Robot omnidireccional a modelar}
   \label{fig:omnirobot}
 \end{figure}
@@ -162,7 +161,8 @@ campos potenciales \cite{gonzalez-villela_cinematica_2015}
 visibles en la Figura \ref{fig:campospotenciales}
 
 \begin{figure}
-  \includegraphics[width=\linewidth]{figures/campos_potenciales.jpg}
+  \centering
+  \includegraphics[width=0.9\linewidth]{figures/campos_potenciales.jpg}
   \caption{Robot en el plano con campos potenciales}
   \label{fig:campospotenciales}
 \end{figure}
@@ -294,27 +294,34 @@ llegando así a la posición final.
 \subsection{Simulación CoppeliaSim}
 Se obtiene también, una simulación virtual en base al modelo cinemático y un robot con el cual se prueba el modelo.
 En CoppeliaSim se dispone del KUKA YouBot que viene por defecto, una plataforma con ruedas omnidireccionales.
-
 \begin{figure}
-  \includegraphics[width=\linewidth]{figures/kuka_real_youbot.jpg}
-  \caption{KUKA YouBot en la realidad}
-  \label{fig:kukayoubot}
+  \centering
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/kuka_real_youbot.jpg}
+    \caption{En la realidad}
+    \label{fig:kukayoubot}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/kuka_sim_youbot.jpg}
+    \caption{En CoppeliaSm}
+    \label{fig:kukasimyoubot}
+  \end{subfigure}
+  \caption{KUKA YouBot}
 \end{figure}
 
 \begin{figure}
-  \includegraphics[width=\linewidth]{figures/kuka_sim_youbot.jpg}
-  \caption{KUKA YouBot en CoppeliaSm}
-  \label{fig:kukasimyoubot}
-\end{figure}
-
-\begin{figure}
-  \includegraphics[width=\linewidth]{figures/kuka_init_pos.jpg}
+  \centering
+  \includegraphics[width=0.6\linewidth]{figures/kuka_init_pos.jpg}
   \caption{Ruta programada para el KUKA YouBot y posición inicial}
   \label{fig:kukaroute}
 \end{figure}
 
 \begin{figure}
-  \includegraphics[width=\linewidth]{figures/kuka_final_pos.jpg}
+  \centering
+  \includegraphics[width=0.6\linewidth]{figures/kuka_final_pos.jpg}
   \caption{Posición final KUKA YouBot}
   \label{fig:kukafinal}
 \end{figure}
@@ -357,7 +364,6 @@ Se sabe de paquetes de ROS que son una gran alternativa para realizar mapeo con 
 La simulacuón en CoppeliaSim no se pudo realizar más compleja porque los ángulos de rotación
 entregados por el API a Matlab no son cartesianos.
 
-
 La velocidad angular de cada motor corresponde efectivamente con el movimiento que debería
 hacer el robot en la realidad.
 
@@ -368,6 +374,15 @@ El punto de inicio y el punto de final de una trayectoria definen un vector al c
 se intenta alinear si se incluye una medida de error entre la horientación del robot y el mencionado vector.
 
 En la simulación no es posible determinar el ángulo final de robor, no se implementó.
+
+La ruta aproximada para continuar con el proyecto es, en consecuencia con lo que ya se vió,
+formar un mapa virtual partiendo de los sensores como cámara de profunidad y LiDAR usando
+técnicas de SLAM con el fin de ubicar el robot en un espacio real de trabajo y prescindir
+del control desde Matlab para llevarlo a cabo desde la tarjeta de desarrollo; posteriormente,
+mentiras en algoritmos de control para los motores y así generar el movimiento deseado.
+
+El penúltimo bloque se compone de la navegación segura para el robot, la fundamental para
+guardar su integridad y por último, gestión tareas de movimiento.
 
 \section{Conclusión}
 \begin{itemize}
@@ -386,6 +401,9 @@ En la simulación no es posible determinar el ángulo final de robor, no se impl
   mecánicas y eléctricas, los problemas realmente están en el hardware.
   \item Es muy importante elegir un algoritmo o ley de control adecuada para los motores de 
   la forma correcta, el fallo en la actuación de estos elementos compromete todo el robot.
+  \item Es muy crítico obtener la posición absoluta del robot en un entorno,
+  esta variable de posición es entrada del modelo cinemático, es por esto que se piensa en
+  cámara de profunidad y/o LiDAR para tener un mapeo general donde el robot se pueda ubicar.
 \end{itemize}
 \newpage
 
