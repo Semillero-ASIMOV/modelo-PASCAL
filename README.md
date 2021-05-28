@@ -7,7 +7,7 @@ Semillero de Robótica, robót movil, equipo de Modelo
 - [Previsualizar Markdown en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
 - [Usar LaTeX en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
 - [Informe PDF](https://github.com/Semillero-ASIMOV/asimov-modelo/blob/main/informe/build/informe.pdf)
-- [Elementos necesarios para el próximo semestre](https://github.com/Semillero-ASIMOV/asimov-modelo#elementos-necesarios-para-el-proximo-semestre)
+- [Elementos necesarios para el próximo semestre](https://github.com/Semillero-ASIMOV/asimov-modelo#elementos-necesarios-para-el-próximo-semestre)
 
 # Elementos necesarios para el próximo semestre
 - :heavy_check_mark: Cámara de profundidad Orbbec Astra. :camera:
