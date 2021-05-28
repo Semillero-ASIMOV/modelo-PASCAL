@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/informe"] 1621648506 "build/informe.aux" "build/informe.bbl" "build/informe" 1621648547
+["bibtex build/informe"] 1622225019 "build/informe.aux" "build/informe.bbl" "build/informe" 1622225048
   "C:/Program Files/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "build/informe.aux" 1621648508 4120 df503e648b0850a9481616021761295f "pdflatex"
+  "build/informe.aux" 1622225021 4190 8d4b7d6f1739b4bf25ffeebf2d0c1556 "pdflatex"
   "references.bib" 1621639791 2546 d01ce99ca35a9950b421c374b02911f7 ""
   (generated)
   "build/informe.blg"
   "build/informe.bbl"
-["pdflatex"] 1621648507 "c:/Users/Brayan.Martinez/OneDrive/Documentos/Universidad/SeRo/asimov-modelo/informe/informe.tex" "build/informe.pdf" "informe" 1621648547
+["pdflatex"] 1622225019 "c:/Users/Brayan.Martinez/OneDrive/Documentos/Universidad/SeRo/asimov-modelo/informe/informe.tex" "build/informe.pdf" "informe" 1622225048
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136790254 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136790254 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -77,7 +77,7 @@
   "C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1620382912 27177 c0f5f128013bde6670e188c4af243210 ""
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/Brayan.Martinez/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1621608152 9550118 ac9d51b6dce647664436f5ec78c5db17 ""
-  "C:/Users/Brayan.Martinez/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1621647974 82507 a9eef8696c92627b87e9975edea03b2a ""
+  "C:/Users/Brayan.Martinez/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1621733193 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Brayan.Martinez/AppData/Roaming/MiKTeX/tex/latex/algorithms/algorithmic.sty" 1251549064 9550 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "C:/Users/Brayan.Martinez/AppData/Roaming/MiKTeX/tex/latex/caption/caption.sty" 1603740596 51746 e89c4da670ba533e6ab38e045ce6d1d9 ""
   "C:/Users/Brayan.Martinez/AppData/Roaming/MiKTeX/tex/latex/caption/caption3.sty" 1603740596 67929 d50ae850e1d9604065e8337a75a41029 ""
@@ -85,9 +85,9 @@
   "C:/Users/Brayan.Martinez/AppData/Roaming/MiKTeX/tex/latex/cite/cite.sty" 1425353482 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
   "C:/Users/Brayan.Martinez/AppData/Roaming/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/Brayan.Martinez/AppData/Roaming/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
-  "build/informe.aux" 1621648508 4120 df503e648b0850a9481616021761295f "pdflatex"
-  "build/informe.bbl" 1621648506 1606 1df7f9ccf08f9e99ce60716542463592 "bibtex build/informe"
-  "c:/Users/Brayan.Martinez/OneDrive/Documentos/Universidad/SeRo/asimov-modelo/informe/informe.tex" 1621648544 15726 4bf329bffc3eb671ac448b03edc0b160 ""
+  "build/informe.aux" 1622225021 4190 8d4b7d6f1739b4bf25ffeebf2d0c1556 "pdflatex"
+  "build/informe.bbl" 1622225019 1674 61dfa869f40ec381f4b9b552140bcfb5 "bibtex build/informe"
+  "c:/Users/Brayan.Martinez/OneDrive/Documentos/Universidad/SeRo/asimov-modelo/informe/informe.tex" 1622225046 15755 d757f25827fe56a6d67ffdae2c703580 ""
   "figures/campos_potenciales.jpg" 1621637509 34165 fd249a82730225fcedaf49aef7bc2cdb ""
   "figures/kuka_final_pos.jpg" 1621626621 33626 569c1da5d807791a6d14a29375fc8118 ""
   "figures/kuka_init_pos.jpg" 1621626198 27623 2376a368281c63cc3ed3195d0c780624 ""
@@ -98,8 +98,8 @@
   "figures/new_positions.jpg" 1621642268 39927 860daff84f53ab9f7a7d2f3fd931827c ""
   "figures/omnidirectional_robot.jpg" 1621636064 23573 4b3ddc92679cb292150e7e5e63032429 ""
   "figures/plataforma_config.jpg" 1621634895 70662 b8c97d1497d482b5616db66a20d57be4 ""
-  "informe.tex" 1621648544 15726 4bf329bffc3eb671ac448b03edc0b160 ""
+  "informe.tex" 1622225046 15755 d757f25827fe56a6d67ffdae2c703580 ""
   (generated)
+  "build/informe.pdf"
   "build/informe.log"
   "build/informe.aux"
-  "build/informe.pdf"

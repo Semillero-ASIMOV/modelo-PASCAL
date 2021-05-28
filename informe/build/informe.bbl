@@ -21,11 +21,8 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{noauthor_gazebo_nodate}
-\BIBentryALTinterwordspacing
-``\BIBforeignlanguage{en-US}{Gazebo}.'' [Online]. Available:
-  \url{http://www.gazebosim.org/}
-\BIBentrySTDinterwordspacing
+\bibitem{noauthor_modelo_nodate}
+``Modelo {Cinemático} {4R}.''
 
 \bibitem{noauthor_kuka_nodate}
 \BIBentryALTinterwordspacing
@@ -38,5 +35,11 @@ V.~Gonzalez-Villela, A.~Sánchez-Balpuesta, and S.-A. Adan,
   ``\BIBforeignlanguage{es}{Cinemática de una plataforma móvil
   omnidireccional con llantas {Mecanum} en configuración {AB}},'' Ph.D.
   dissertation, Universidad Nacional Autónoma de México, Sep. 2015.
+
+\bibitem{noauthor_gazebo_nodate}
+\BIBentryALTinterwordspacing
+``\BIBforeignlanguage{en-US}{Gazebo}.'' [Online]. Available:
+  \url{http://www.gazebosim.org/}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
