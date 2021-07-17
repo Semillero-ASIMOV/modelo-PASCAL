@@ -1,6 +1,10 @@
-![downloads](https://img.shields.io/github/downloads/Semillero-ASIMOV/asimov-modelo/total?logo=github)
-
 # Modelos
+![downloads](https://img.shields.io/github/downloads/Semillero-ASIMOV/asimov-modelo/total?logo=github)
+![contributors](https://img.shields.io/github/contributors/Semillero-ASIMOV/asimov-modelo?color=green)
+![lastcommit](https://img.shields.io/github/last-commit/Semillero-ASIMOV/asimov-modelo)
+![prereleasedate](https://img.shields.io/github/release-date-pre/Semillero-ASIMOV/asimov-modelo?label=pre-release%20date)
+![releasedate](https://img.shields.io/github/release-date/Semillero-ASIMOV/asimov-modelo)
+![openissues](https://img.shields.io/github/issues/Semillero-ASIMOV/asimov-modelo)
 
 Semillero de Robótica, robót movil, equipo de Modelo
 
