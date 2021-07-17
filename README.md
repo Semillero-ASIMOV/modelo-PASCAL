@@ -1,4 +1,4 @@
-![downloads](https://img.shields.io/github/downloads/Semillero-ASIMOV/asimov-modelo/total)
+![downloads](https://img.shields.io/github/downloads/Semillero-ASIMOV/asimov-modelo/total?logo=github)
 
 # Modelos
 
