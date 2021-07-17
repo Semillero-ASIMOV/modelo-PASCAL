@@ -1,3 +1,5 @@
+![downloads](https://img.shields.io/github/downloads/Semillero-ASIMOV/asimov-modelo/total)
+
 # Modelos
 
 Semillero de Robótica, robót movil, equipo de Modelo
