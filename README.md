@@ -19,18 +19,18 @@ Robot de servicio desarrollado en el *Semillero de Robótica ASIMOV* de la **Uni
 # Tabla de Contenido
 * [Elementos necesarios para el próximo semestre](https://github.com/Semillero-ASIMOV/asimov-modelo#elementos-necesarios-para-el-próximo-semestre)
 * [Comenzando 🚀](https://github.com/Semillero-ASIMOV/asimov-modelo#comenzando)
-    * [Pre-requisitos 📋]()
-    * [Instalación 🔧]()
-    * [Ejecutando las pruebas ⚙️]()
-        * [Solo Matlab]()
-        * [Matlab + CoppeliaSim]()
-* [Construido con 🛠️]()
-* [Contribuyendo 🖇️]()
+    * [Pre-requisitos 📋](https://github.com/Semillero-ASIMOV/asimov-modelo#pre-requisitos-)
+    * [Instalación 🔧](https://github.com/Semillero-ASIMOV/asimov-modelo#instalación-)
+    * [Ejecutando las pruebas ⚙️](https://github.com/Semillero-ASIMOV/asimov-modelo#ejecutando-las-pruebas-%EF%B8%8F)
+        * [Solo Matlab](https://github.com/Semillero-ASIMOV/asimov-modelo#solo-matlab)
+        * [Matlab + CoppeliaSim](https://github.com/Semillero-ASIMOV/asimov-modelo#matlab--coppeliasim)
+* [Construido con 🛠️](https://github.com/Semillero-ASIMOV/asimov-modelo#construido-con-%EF%B8%8F)
+* [Contribuyendo 🖇️](https://github.com/Semillero-ASIMOV/asimov-modelo#contribuyendo-%EF%B8%8F)
     * [Previsualizar Markdown en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
     * [Usar LaTeX en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
-    * [Actualizar repositorio]()
-* [Autores]()
-* [Licencia]()
+    * [Actualizar repositorio](https://github.com/Semillero-ASIMOV/asimov-modelo#actualizar-repositorio)
+* [Autores](https://github.com/Semillero-ASIMOV/asimov-modelo#autores-%EF%B8%8F)
+* [Licencia](https://github.com/Semillero-ASIMOV/asimov-modelo#licencia-)
 * [Informe PDF](https://github.com/Semillero-ASIMOV/asimov-modelo/blob/main/informe/build/informe.pdf)
 
 # Comenzando 🚀
@@ -81,21 +81,21 @@ Una vez en Visual Studio Code y aprovechando Git, se puede editar el informe y o
 
 ### Actualizar repositorio
 Para actualizar el repositorio con cambios, asegúrese de usar ramas:
-1. Crear una rama:
+1. Crear y cambiar a una rama:
 ```sh
-$ git branch <nombre-de-rama>
+$ git checkout -b <nombre-de-rama>
 ```
-2. Cambiar a la rama:
-```sh
-$ git checkout <nombre-de-rama>
-```
-3. Agregar los archivos:
+2. Agregar los archivos:
 ```sh
 $ git add .
 ```
-4. Preparar el commit y realizar una descripción detallada de los cambios:
+3. Preparar el commit y realizar una descripción detallada de los cambios:
 ```sh
 $ git commit
+```
+4. Eliminar la rama
+```sh
+$ git branch -d <nombre-de-rama>
 ```
 # Autores ✒️
 * Tejada - Profesor - []()
