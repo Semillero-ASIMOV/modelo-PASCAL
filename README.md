@@ -98,7 +98,11 @@ $ git commit
 git checkout main
 git merge <nombre-de-rama>
 ```
-4. Eliminar la rama
+5. Push
+```sh
+$ git push
+```
+6. Eliminar la rama
 ```sh
 $ git branch -d <nombre-de-rama>
 ```
