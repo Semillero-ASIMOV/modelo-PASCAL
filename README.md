@@ -2,7 +2,16 @@
 
 Robot de servicio desarrollado en el *Semillero de Robótica ASIMOV* de la **Universidad EIA** para interactuar con personas en el campus y desplazarse a través de este. Este equipo se encarga de modelar el movimiento del robot cinemática y dinamicamente para construir algoritmos inteligentes que le permitan al sistema desplazarse en un entorno que posee diversos obstáculos por medio de sensores. 
 
+## Elementos necesarios para el semestre 2021-2:
+- :heavy_check_mark: Cámara de profundidad Orbbec Astra. :camera:
+- :heavy_check_mark: LiDAR A1M8-R6.
+- :x: IMU.
+- :x: Base robótica con ruedas tipo Mecanum.
+- :heavy_check_mark: Odroid XU-4 + Tarjeta SD + Adaptador. :computer:
+- :x: Sensores de proximidad que aún están por definirse.
+
 # Tabla de Contenido
+* [Elementos necesarios para el próximo semestre](https://github.com/Semillero-ASIMOV/asimov-modelo#elementos-necesarios-para-el-próximo-semestre)
 * [Comenzando 🚀](https://github.com/Semillero-ASIMOV/asimov-modelo#comenzando)
     * [Pre-requisitos 📋]()
     * [Instalación 🔧]()
@@ -11,10 +20,12 @@ Robot de servicio desarrollado en el *Semillero de Robótica ASIMOV* de la **Uni
         * [Matlab + CoppeliaSim]()
 * [Construido con 🛠️]()
 * [Contribuyendo 🖇️]()
-* [Previsualizar Markdown en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
-* [Usar LaTeX en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
+    * [Previsualizar Markdown en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
+    * [Usar LaTeX en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
+    * [Actualizar repositorio]()
+* [Autores]()
+* [Licencia]()
 * [Informe PDF](https://github.com/Semillero-ASIMOV/asimov-modelo/blob/main/informe/build/informe.pdf)
-* [Elementos necesarios para el próximo semestre](https://github.com/Semillero-ASIMOV/asimov-modelo#elementos-necesarios-para-el-próximo-semestre)
 
 # Comenzando 🚀
 ### Pre-requisitos 📋
@@ -42,33 +53,53 @@ $ git clone https://github.com/Semillero-ASIMOV/asimov-modelo.git
 7. La ejecución en *Matlab* se detiene automáticamente cuando el algoritmo termina.
 8. Detener la simulación en *CoppeliaSim Edu*.
 
-## Elementos necesarios para el próximo semestre
-- [x] Cámara de profundidad Orbbec Astra. :camera:
-- [x] LiDAR A1M8-R6.
-- [ ] IMU.
-- [ ] Base robótica con ruedas tipo Mecanum.
-- [x] Odroid XU-4 + Tarjeta SD + Adaptador. :computer:
-- [ ] Sensores de proximidad que aún están por definirse.
-
 # Construido con 🛠️
 * [Matlab] - "una plataforma de programación y cálculo numérico".
 * [CoppeliaSim Edu](https://coppeliarobotics.com) - Un simulador físico de robots.
+
 # Contribuyendo 🖇️
-## Previsualizar Markdown en Visual Studio Code
+## Editar README.md
+Se recomienda usar `Visual Studio Code` para editar todos los archivos del repositorio e integrar correctamente con Git.
 
-Se puede obtener una previsualización del README.md con el comando `Ctrl+Shift+V`.
+### Previsualizar Markdown en Visual Studio Code
+Se puede obtener una previsualización del README.md con el comando `Ctrl+Shift+V`. 
+> Fuente: [Markdown and Visual Studio Code][markdown]
 
-Fuente: [Markdown and Visual Studio Code][markdown]
-
-## Como usar LaTeX con Visual Studio Code
+### Como usar LaTeX con Visual Studio Code
 
 Para editar el informe directamente en Visual Studio Code y realizar push a GitHub, se puede usar la extensión [LaTeX Workshop][latex-workshop] y seguir [este video][latex-video-install] para realizar la adecuada instalación.
 
 Una vez en Visual Studio Code y aprovechando Git, se puede editar el informe y obtener una vista previa del mismo; luego se puede hacer push para llevarlo a GitHub.
 
->Nota: Si se modifica el informe en otro recurso, modificar el archivo `informe.tex`.
+>Nota: Si se modifica el informe en otro recurso, modificar el archivo `informe.tex` también en el repositorio.
 
-# Créditos
+### Actualizar repositorio
+Para actualizar el repositorio con cambios, asegúrese de usar ramas:
+1. Crear una rama:
+```sh
+$ git branch <nombre-de-rama>
+```
+2. Cambiar a la rama:
+```sh
+$ git checkout <nombre-de-rama>
+```
+3. Agregar los archivos:
+```sh
+$ git add .
+```
+4. Preparar el commit y realizar una descripción detallada de los cambios:
+```sh
+$ git commit
+```
+# Autores ✒️
+* Tejada - Profesor - []()
+* Brayan Martínez - Líder & Documentación - [MrCabrac](https://github.com/MrCabrac)
+* Juan Góngora - Rol - []()
+* Luis Isaza - Rol - []()
+* Sebastian Jiménez - []()
+
+# Licencia 📄
+
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.)
 
