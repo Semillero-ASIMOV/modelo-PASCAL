@@ -83,15 +83,15 @@ Una vez en Visual Studio Code y aprovechando Git, se puede editar el informe y o
 Para actualizar el repositorio con cambios, asegúrese de usar ramas:
 1. Crear y cambiar a una rama:
 ```sh
-$ git checkout -b <nombre-de-rama>
+git checkout -b <nombre-de-rama>
 ```
 2. Agregar los archivos:
 ```sh
-$ git add .
+git add .
 ```
 3. Preparar el commit y realizar una descripción detallada de los cambios:
 ```sh
-$ git commit
+git commit
 ```
 4. Merge
 ```sh
@@ -100,11 +100,11 @@ git merge <nombre-de-rama>
 ```
 5. Push
 ```sh
-$ git push
+git push
 ```
 6. Eliminar la rama
 ```sh
-$ git branch -d <nombre-de-rama>
+git branch -d <nombre-de-rama>
 ```
 # Autores ✒️
 * Tejada - Profesor - []()
