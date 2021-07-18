@@ -1,4 +1,10 @@
-# Equipo de Modelos para el Proyecto PASCAL
+# Modelos
+![downloads](https://img.shields.io/github/downloads/Semillero-ASIMOV/asimov-modelo/total?logo=github)
+![contributors](https://img.shields.io/github/contributors/Semillero-ASIMOV/asimov-modelo?color=green)
+![lastcommit](https://img.shields.io/github/last-commit/Semillero-ASIMOV/asimov-modelo)
+![prereleasedate](https://img.shields.io/github/release-date-pre/Semillero-ASIMOV/asimov-modelo?label=pre-release%20date)
+![releasedate](https://img.shields.io/github/release-date/Semillero-ASIMOV/asimov-modelo)
+![openissues](https://img.shields.io/github/issues/Semillero-ASIMOV/asimov-modelo)
 
 Robot de servicio desarrollado en el *Semillero de Robótica ASIMOV* de la **Universidad EIA** para interactuar con personas en el campus y desplazarse a través de este. Este equipo se encarga de modelar el movimiento del robot cinemática y dinamicamente para construir algoritmos inteligentes que le permitan al sistema desplazarse en un entorno que posee diversos obstáculos por medio de sensores. 
 
