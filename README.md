@@ -93,6 +93,11 @@ $ git add .
 ```sh
 $ git commit
 ```
+4. Merge
+```sh
+git checkout main
+git merge <nombre-de-rama>
+```
 4. Eliminar la rama
 ```sh
 $ git branch -d <nombre-de-rama>
