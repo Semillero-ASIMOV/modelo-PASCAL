@@ -27,7 +27,7 @@ Robot de servicio desarrollado en el *Semillero de Robótica ASIMOV* de la **Uni
 * [Construido con 🛠️](https://github.com/Semillero-ASIMOV/asimov-modelo#construido-con-%EF%B8%8F)
 * [Contribuyendo 🖇️](https://github.com/Semillero-ASIMOV/asimov-modelo#contribuyendo-%EF%B8%8F)
     * [Previsualizar Markdown en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
-    * [Usar LaTeX en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#previsualizar-markdown-en-visual-studio-code)
+    * [Usar LaTeX en VS Code](https://github.com/Semillero-ASIMOV/asimov-modelo#como-usar-latex-con-visual-studio-code)
     * [Actualizar repositorio](https://github.com/Semillero-ASIMOV/asimov-modelo#actualizar-repositorio)
 * [Autores](https://github.com/Semillero-ASIMOV/asimov-modelo#autores-%EF%B8%8F)
 * [Licencia](https://github.com/Semillero-ASIMOV/asimov-modelo#licencia-)
