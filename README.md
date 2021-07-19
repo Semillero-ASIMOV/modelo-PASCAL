@@ -18,7 +18,7 @@ Robot de servicio desarrollado en el *Semillero de Robótica ASIMOV* de la **Uni
 
 # Tabla de Contenido
 * [Elementos necesarios para el próximo semestre](https://github.com/Semillero-ASIMOV/asimov-modelo#elementos-necesarios-para-el-próximo-semestre)
-* [Comenzando 🚀](https://github.com/Semillero-ASIMOV/asimov-modelo#comenzando)
+* [Comenzando 🚀](https://github.com/Semillero-ASIMOV/asimov-modelo#comenzando-)
     * [Pre-requisitos 📋](https://github.com/Semillero-ASIMOV/asimov-modelo#pre-requisitos-)
     * [Instalación 🔧](https://github.com/Semillero-ASIMOV/asimov-modelo#instalación-)
     * [Ejecutando las pruebas ⚙️](https://github.com/Semillero-ASIMOV/asimov-modelo#ejecutando-las-pruebas-%EF%B8%8F)
